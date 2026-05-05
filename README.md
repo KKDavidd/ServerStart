@@ -1,4 +1,3 @@
-```markdown
 # Minecraft Server Starter Bot
 
 A simple, lightweight Discord bot written in Python (`discord.py`) that allows authorized users to start a Minecraft server directly from a Discord channel. 
@@ -21,7 +20,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. **Clone the repository** (or download the script):
    ```bash
-   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
+   git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
    ```
 
@@ -78,3 +77,4 @@ Once running, type `!start` in your designated Discord channel to launch the ser
 * **File Paths:** If you are on Windows, make sure to use forward slashes (`/`) or double backslashes (`\\`) in your `MC_SERVER_PATH`.
 * **The `.bat` File:** Ensure your Minecraft `start.bat` file works flawlessly when double-clicked manually before trying to use the bot. Adding `pause` to the end of your `.bat` file during testing can help catch errors.
 * **Keep Alive:** The terminal window running the Python script must remain open for the bot to stay online. Consider setting it up as a background service if you want it to run 24/7.
+```
